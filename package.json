@@ -9,6 +9,7 @@
   },
   "dependencies": {
     "@prisma/client": "2.4.1",
+    "directory-tree": "^2.2.4",
     "next": "9.5.1",
     "railway": "^2.0.9",
     "react": "16.13.1",
