@@ -3,7 +3,8 @@ import { NextPage, GetServerSideProps } from "next";
 import styles from "../styles/Home.module.css";
 import { useState, FormEvent } from "react";
 import useSWR from "swr";
-import { PrismaClient, Image } from "@prisma/client";
+import { Image } from "@prisma/client";
+import { prisma } from "../prisma";
 
 const fetcher = (url: string) => fetch(url).then(res => res.json());
 
@@ -88,7 +89,6 @@ const Home: NextPage<{ images: Image[] }> = props => {
 export default Home;
 
 export const getServerSideProps: GetServerSideProps = async () => {
-  const prisma = new PrismaClient();
   const images = await prisma.image.findMany();
   return {
     props: {
