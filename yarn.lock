@@ -4968,10 +4968,10 @@ quick-lru@^4.0.1:
   resolved "https://registry.yarnpkg.com/quick-lru/-/quick-lru-4.0.1.tgz#5b8878f113a58217848c6482026c73e1ba57727f"
   integrity sha512-ARhCpm70fzdcvNQfPoy49IaanKkTlRWF2JMzqhcJbhSFRZv7nPTvZJdcY7301IPmvW+/p0RgIWnQDLJxifsQ7g==
 
-railway@^2.0.9:
-  version "2.0.9"
-  resolved "https://registry.yarnpkg.com/railway/-/railway-2.0.9.tgz#a644038acdb457836c50dec6d57b111c31babe9c"
-  integrity sha512-J66QaO/s+B5M8EYakahDrXc7zbZN4XyKsk/DJ4xLrmIqvpoQFQIjHxLy/HGPZlXmHNMUagTX8IJCNDMlMTk5EQ==
+railway@^2.0.10:
+  version "2.0.10"
+  resolved "https://registry.yarnpkg.com/railway/-/railway-2.0.10.tgz#85d91a95aa9d65867e4660e05b7494f34cdf5671"
+  integrity sha512-+t0gW/niXOFqN//xFjAKd5ONQPHrhhPbGoGsPqunHOautIQXQosgGxqDMI3xnImIuWEiPA/27zhXWIm1TCY8IQ==
   dependencies:
     chalk "^4.1.0"
     cli-spinners "^2.3.0"
