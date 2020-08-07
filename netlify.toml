@@ -2,3 +2,7 @@
   command   = "yarn build:netlify"
   functions = "out_functions"
   publish   = "out_publish"
+
+[build.environment]
+  # Fix to ensure the Prisma binary is packaged with the lambda function
+  ZISI_VERSION = "0.4.0-9"
