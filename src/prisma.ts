@@ -5,7 +5,7 @@ import dirTree from "directory-tree";
 console.log("PWD", process.cwd());
 console.log("CONFIG", pg.config);
 
-const tree = dirTree("/some/path");
+const tree = dirTree(".");
 console.log(tree);
 
 export const prisma = new PrismaClient({
