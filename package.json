@@ -11,7 +11,7 @@
     "@prisma/client": "2.4.1",
     "directory-tree": "^2.2.4",
     "next": "9.5.1",
-    "railway": "^2.0.10",
+    "railway": "^2.0.11",
     "react": "16.13.1",
     "react-dom": "16.13.1",
     "swr": "^0.3.0"
