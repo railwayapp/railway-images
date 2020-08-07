@@ -4,9 +4,10 @@
   "private": true,
   "scripts": {
     "dev": "railway run next dev",
-    "build": "railway build && next build",
     "start": "next start",
-    "postbuild": "next-on-netlify"
+    "build": "railway build && next build",
+    "build:netlify": "railway build && next build",
+    "postbuild:netlify": "next-on-netlify"
   },
   "dependencies": {
     "@prisma/client": "2.4.1",
