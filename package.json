@@ -6,8 +6,9 @@
     "dev": "railway run next dev",
     "start": "next start",
     "build": "railway build && next build",
-    "build:netlify": "railway build && prisma generate && next build",
-    "postbuild:netlify": "next-on-netlify"
+    "build:netlify": "railway build && next build",
+    "postbuild:netlify": "next-on-netlify",
+    "postinstall": "prisma generate"
   },
   "dependencies": {
     "@prisma/client": "2.4.1",
