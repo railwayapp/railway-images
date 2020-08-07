@@ -10,7 +10,7 @@
   "dependencies": {
     "@prisma/client": "2.4.1",
     "next": "9.5.1",
-    "railway": "^2.0.8",
+    "railway": "^2.0.9",
     "react": "16.13.1",
     "react-dom": "16.13.1",
     "swr": "^0.3.0"
