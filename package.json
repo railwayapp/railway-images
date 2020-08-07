@@ -5,7 +5,8 @@
   "scripts": {
     "dev": "railway run next dev",
     "build": "railway build && next build",
-    "start": "next start"
+    "start": "next start",
+    "postbuild": "next-on-netlify"
   },
   "dependencies": {
     "@prisma/client": "2.4.1",
