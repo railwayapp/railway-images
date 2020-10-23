@@ -3,12 +3,13 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
-    "dev": "railway run next dev",
+    "dev": "next dev",
     "start": "next start",
-    "build": "railway build && next build",
+    "build": "next build",
     "build:netlify": "railway build && next build",
     "postbuild:netlify": "next-on-netlify",
-    "postinstall": "prisma generate"
+    "postinstall": "prisma generate",
+    "migrate": "prisma migrate up --experimental"
   },
   "dependencies": {
     "@prisma/client": "2.4.1",
