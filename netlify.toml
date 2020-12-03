@@ -1,4 +1,0 @@
-[build]
-  command   = "yarn build:netlify"
-  functions = "out_functions"
-  publish   = "out_publish"
