@@ -11,5 +11,3 @@
 - Migrate the database `railway run yarn migrate:dev`
 - Generate Prisma client `yarn generate`
 - Run the NextJS app `railway run yarn dev`
-
-.
