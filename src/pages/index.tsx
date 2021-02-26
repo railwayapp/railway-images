@@ -43,12 +43,12 @@ const Home: NextPage<{ images: Image[] }> = props => {
   return (
     <div className={styles.container}>
       <Head>
-        <title>Railway on Vercel</title>
+        <title>Railway on Railway</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
       <main className={styles.main}>
-        <h1 className={styles.title}>Images</h1>
+        <h1 className={styles.title}>Images 🚅</h1>
 
         <p className={styles.description}>
           Built with <a href="https://railway.app">Railway</a>
