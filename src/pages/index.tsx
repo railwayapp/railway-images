@@ -48,7 +48,7 @@ const Home: NextPage<{ images: Image[] }> = props => {
       </Head>
 
       <main className={styles.main}>
-        <h1 className={styles.title}>Images</h1>
+        <h1 className={styles.title}>Beep Boop 🤖</h1>
 
         <p className={styles.description}>
           Built with <a href="https://railway.app">Railway</a>
